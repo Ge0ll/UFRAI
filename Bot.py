@@ -2,10 +2,10 @@ import asyncio, msgpack, msgpack_numpy as m, elara
 from aiogram import Bot, Dispatcher, executor
 from func import *
 
-API_TOKEN = '2041578738:AAGDx9CyqeQEoPnNcVlM0SlkFIlFvTphheM'
+API_TOKEN = 'api'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
-uid = 490832297
+uid = 'uid'
 db = elara.exe("encodings.db", True)
 
 
